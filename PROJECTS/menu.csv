@@ -29,36 +29,36 @@ itemcode,dish name,veg/non veg,price,category
 127,Gobi Manchurian,Veg,215,Starters
 128,Stuffed Mushroom,Veg,125,Starters
 129,Fish Fingers,Non Veg,367,Starters
-200,Sindhi Biryani,Veg,377,Briyani
-201,Goan Biryani,Veg,96,Briyani
-202,Ambur Biryani,Veg,340,Briyani
-203,Hyderabadi Biryani,Veg,87,Briyani
-204,Lucknowi Biryani,Veg,360,Briyani
-205,Mutton Biryani,Non Veg,360,Briyani
-206,Donne Biryani,Veg,346,Briyani
-207,Mughlai Biryani,Veg,106,Briyani
-208,Kolkata Biryani,Veg,372,Briyani
-209,Awadhi Biryani,Veg,125,Briyani
-210,Jackfruit Biryani,Veg,350,Briyani
-211,Fish Biryani,Non Veg,228,Briyani
-212,Egg Biryani,Veg,284,Briyani
-213,Malabar Biryani,Veg,98,Briyani
-214,Chicken Biryani,Non Veg,320,Briyani
-215,Paneer Biryani,Veg,301,Briyani
-216,Egg Fried Rice,Non Veg,87,Briyani
-217,Mutton Keema Biryani,Veg,204,Briyani
-218,Kashmiri Biryani,Veg,338,Briyani
-219,Thalassery Biryani,Veg,324,Briyani
-220,Chettinad Biryani,Veg,284,Briyani
-221,Dum Biryani,Veg,181,Briyani
-222,Mushroom Biryani,Veg,359,Briyani
-223,Prawn Biryani,Veg,235,Briyani
-224,Veg Dum Biryani,Veg,201,Briyani
-225,Veg Biryani,Veg,86,Briyani
-226,Schezwan Biryani,Veg,367,Briyani
-227,Paneer Tikka Biryani,Veg,209,Briyani
-228,Keema Biryani,Veg,288,Briyani
-229,Bombay Biryani,Veg,352,Briyani
+200,Sindhi Biryani,Veg,377,Biryani
+201,Goan Biryani,Veg,96,Biryani
+202,Ambur Biryani,Veg,340,Biryani
+203,Hyderabadi Biryani,Veg,87,Biryani
+204,Lucknowi Biryani,Veg,360,Biryani
+205,Mutton Biryani,Non Veg,360,Biryani
+206,Donne Biryani,Veg,346,Biryani
+207,Mughlai Biryani,Veg,106,Biryani
+208,Kolkata Biryani,Veg,372,Biryani
+209,Awadhi Biryani,Veg,125,Biryani
+210,Jackfruit Biryani,Veg,350,Biryani
+211,Fish Biryani,Non Veg,228,Biryani
+212,Egg Biryani,Veg,284,Biryani
+213,Malabar Biryani,Veg,98,Biryani
+214,Chicken Biryani,Non Veg,320,Biryani
+215,Paneer Biryani,Veg,301,Biryani
+216,Egg Fried Rice,Non Veg,87,Biryani
+217,Mutton Keema Biryani,Veg,204,Biryani
+218,Kashmiri Biryani,Veg,338,Biryani
+219,Thalassery Biryani,Veg,324,Biryani
+220,Chettinad Biryani,Veg,284,Biryani
+221,Dum Biryani,Veg,181,Biryani
+222,Mushroom Biryani,Veg,359,Biryani
+223,Prawn Biryani,Veg,235,Biryani
+224,Veg Dum Biryani,Veg,201,Biryani
+225,Veg Biryani,Veg,86,Biryani
+226,Schezwan Biryani,Veg,367,Biryani
+227,Paneer Tikka Biryani,Veg,209,Biryani
+228,Keema Biryani,Veg,288,Biryani
+229,Bombay Biryani,Veg,352,Biryani
 300,Chicken Stew,Non Veg,206,Gravy
 301,Mushroom Korma,Veg,198,Gravy
 302,Butter Chicken,Non Veg,225,Gravy
@@ -208,3 +208,4 @@ itemcode,dish name,veg/non veg,price,category
 726,Apple Pie,Veg,98,Desserts
 727,Sandesh,Veg,362,Desserts
 728,Jalebi,Veg,202,Desserts
+729,Tiramisu,Veg,180,Desserts

@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, jsonify
+import csv
 
 app = Flask(__name__)
 
@@ -26,17 +27,35 @@ def logverify():
 
 records=[]
 
-import csv
-filename = "menu.csv"
-with open(filename, "r", newline='', encoding="utf-8") as file:
-    reader = csv.reader(file)
-    header = next(reader)  # To skip the header row
-    for row in reader:
-        records.append(row)
-
 @app.route('/home/menu')
 def menu():
-    return render_template('menu.html',records=records)
+    soup=[]
+    starters=[]
+    biryani=[]
+    gravy=[]
+    rice_noodles=[]
+    drinks=[]
+    desserts=[]
+    filename = "menu.csv"
+    with open(filename, "r", newline='', encoding="utf-8") as file:
+        reader = csv.reader(file)
+        header = next(reader)  # To skip the header row
+        for row in reader:
+            if row[4]=='Starters':
+                starters.append(row)
+            elif row[4]=='Biryani':
+                biryani.append(row)
+            elif row[4]=='Gravy':
+                gravy.append(row)
+            elif row[4]=='Rice/Noodles':
+                rice_noodles.append(row)
+            elif row[4]=='Soup':
+                soup.append(row)
+            elif row[4]=='Drinks':
+                drinks.append(row)
+            elif row[4]=='Desserts':
+                desserts.append(row)
+    return render_template('menu.html',soup=soup,starters=starters,biryani=biryani,gravy=gravy,rice_noodles=rice_noodles,drinks=drinks,desserts=desserts)
 
 @app.route('/home/accounts')
 def accounts():

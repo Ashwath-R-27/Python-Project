@@ -19,7 +19,7 @@
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                         <tr>
                             <th style="height: 25px;"></th>
@@ -34,16 +34,14 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Soup' %}
+                        {% for record in soup %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
                     </table>
@@ -55,7 +53,7 @@
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                         <tr>
                             <th style="height: 25px;"></th>
@@ -70,28 +68,26 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Starters' %}
+                        {% for record in starters %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
-                    </table>
-                    <table>
+                </table>
+                <table>
                     <thead>
-                        <tr><th colspan="6">BRIYANI</th></tr>
+                        <tr><th colspan="6">BIRYANI</th></tr>
                         <tr>
                             <th style="width: 10%;">DISH CODE</th>
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                         <tr>
                             <th style="height: 25px;"></th>
@@ -106,20 +102,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Briyani' %}
+                        {% for record in biryani %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
-                    </table>
-                    <table>
+                </table>
+                <table>
                     <thead>
                         <tr><th colspan="6">GRAVY</th></tr>
                         <tr>
@@ -127,7 +121,7 @@
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                         <tr>
                             <th style="height: 25px;"></th>
@@ -142,20 +136,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Gravy' %}
+                        {% for record in gravy %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
-                    </table>
-                    <table>
+                </table>
+                <table>
                     <thead>
                         <tr><th colspan="6">RICE/NOODLES</th></tr>
                         <tr>
@@ -163,7 +155,7 @@
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                         <tr>
                             <th style="height: 25px;"></th>
@@ -178,20 +170,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Rice/Noodles' %}
+                        {% for record in rice_noodles %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
-                    </table>
-                    <table>
+                </table>
+                <table>
                     <thead>
                         <tr><th colspan="6">DRINKS</th></tr>
                         <tr>
@@ -199,20 +189,18 @@
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Drinks' %}
+                        {% for record in drinks %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
                     </table>
@@ -224,23 +212,21 @@
                             <th style="width: 19%;">DISH NAME</th>
                             <th>DISH IMAGE</th>
                             <th style="width: 22%;">CATEGORY</th>
-                            <th>PRICE</th>
+                            <th style="width: 17%;">PRICE</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {% for record in records %}
-                        {% if record[4]=='Desserts' %}
+                        {% for record in desserts %}
                         <tr>
                             <td>{{ record[0] }}</td>
                             <td>{{ record[1] }}</td>
-                            <td>{{ record[0] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
                             <td>{{ record[2] }}</td>
                             <td>₹{{ record[3] }}.00</td>
                         </tr>
-                        {% endif %}
                         {% endfor %}
                     </tbody>
-                    </table>
+                </table>
             </div>
         </div>
     </body>
